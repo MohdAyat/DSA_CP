@@ -16,3 +16,13 @@ public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
             }
         }
     }
+//edges to adj for undirected
+ArrayList<ArrayList<Pair>> adj = new ArrayList<>(vertices);
+        for(int i =0;i<vertices;i++){adj.add(new ArrayList<Pair>());}
+        for(int i = 0;i<edges;i++){
+            int u = edge[i][0];
+            int v = edge[i][1];
+            int w = edge[i][2];
+            adj.get(u).add(new Pair(v,w));
+            adj.get(v).add(new Pair(u,w));
+        }
