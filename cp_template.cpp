@@ -1,9 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define for(i,n) for(i=0;i<n;i++)
+#define wt int t;cin>>t;while(t--)
 int main(){
   ios::sync_with_stdio(0); cin.tie(0);
   
 }
+
 #define ll long long
 #define pii pair<int, int>
 #define pll pair<long long, long long>
@@ -14,6 +17,7 @@ int main(){
 #define sc set<char>
 #define pb push_back
 #define wt int t;cin>>t;while(t--)
+#define feach(x, a) for(auto& x: a)
 typedef long long ll;
 typedef unsigned long long ull;
 typedef vector<ll> vl;
