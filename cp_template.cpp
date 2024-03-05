@@ -4,7 +4,7 @@ using namespace std;
 #define wt int t;cin>>t;while(t--)
 int main(){
   ios::sync_with_stdio(0); cin.tie(0);
-  
+  cout<<  <<'\n';
 }
 
 #define ll long long
