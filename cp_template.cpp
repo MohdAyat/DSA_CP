@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define for(i,n) for(i=0;i<n;i++)
-#define wt int t;cin>>t;while(t--)
-int main(){
-  ios::sync_with_stdio(0); cin.tie(0);
-  cout<<  <<'\n';
-}
-
+#define FOR(i, s, e, t) for ((i) = (s); (i) < (e); (i) += (t)) 
+#define REP(i, e) for (int i = 0; i < (e); ++i) 
+#define REP1(i, s, e) for (int i = (s); i < (e); ++i)
+#define RREP(i, e) for (int i = (e); i >= 0; --i)
+#define RREP1(i, e, s) for (int i = (e); i >= (s); --i)
 #define ll long long
 #define pii pair<int, int>
 #define pll pair<long long, long long>
@@ -30,6 +28,10 @@ typedef long int int32;
 typedef unsigned long int uint32;
 typedef long long int int64;
 typedef unsigned long long int  uint64;
+int main(){
+  ios::sync_with_stdio(0); cin.tie(0);
+  cout<<  <<'\n';
+}
 
 bool isPalindrome(string s1){int i =0,j=s1.length()-1;while(i<j){if(s1[i]!=s1[j]){return false;}i++;j--;}return true;}
 void yes() { cout<<"YES\n"; }
