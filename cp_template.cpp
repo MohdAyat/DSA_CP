@@ -16,6 +16,8 @@ using namespace std;
 #define pb push_back
 #define wt int t;cin>>t;while(t--)
 #define feach(x, a) for(auto& x: a)
+#define yn(ans) printf("%s\n", (ans)?"Yes":"No");
+#define YN(ans) printf("%s\n", (ans)?"YES":"NO");
 typedef long long ll;
 typedef unsigned long long ull;
 typedef vector<ll> vl;
