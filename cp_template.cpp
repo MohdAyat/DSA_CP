@@ -32,7 +32,7 @@ typedef long long int int64;
 typedef unsigned long long int  uint64;
 int main(){
   ios::sync_with_stdio(0); cin.tie(0);
-  cout<<  <<'\n';
+  
 }
 
 bool isPalindrome(string s1){int i =0,j=s1.length()-1;while(i<j){if(s1[i]!=s1[j]){return false;}i++;j--;}return true;}
