@@ -1,17 +1,15 @@
 #include <bits/stdc++.h>
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 using namespace std;
-#define FOR(i, s, e, t) for ((i) = (s); (i) < (e); (i) += (t)) 
+#define FOR(i, s, e, t) for ((i) = (s); (i) < (e); (i) += t) 
 #define REP(i, e) for (int i = 0; i < (e); ++i) 
 #define REP1(i, s, e) for (int i = (s); i < (e); ++i)
 #define RREP(i, e) for (int i = (e); i >= 0; --i)
 #define RREP1(i, e, s) for (int i = (e); i >= (s); --i)
-#define ll long long
 #define pii pair<int, int>
 #define pll pair<long long, long long>
-#define vi vector<int>
 #define vll vector<long long>
-#define mii map<int, int>
-#define si set<int>
 #define sc set<char>
 #define pb push_back
 #define wt int t;cin>>t;while(t--)
