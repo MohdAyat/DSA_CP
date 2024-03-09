@@ -2,6 +2,7 @@
 // #pragma GCC optimize("O3,unroll-loops")
 // #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 using namespace std;
+#define endl "\n";
 #define FOR(i, s, e, t) for ((i) = (s); (i) < (e); (i) += t) 
 #define REP(i, e) for (int i = 0; i < (e); ++i) 
 #define REP1(i, s, e) for (int i = (s); i < (e); ++i)
